@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- *************** -->
+    <!-- TextView Styles -->
+    <!-- *************** -->
+
+    <style name="TextView" parent="android:style/Widget.TextView" />
+
+    <style name="TextView.Regular" parent="android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="TextView.Regular.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.28">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.28.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.28.Grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+
+    <style name="TextView.Regular.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextView.Regular.20.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.18.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.18.Grey">
+        <item name="android:textColor">@color/grey_1</item>
+    </style>
+
+    <style name="TextView.Regular.Bold.18.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView.Regular.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView.Regular.16.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.16.Grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="TextView.Regular.16.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView.Regular.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextView.Regular.18.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.18.Grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="TextView.Regular.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextView.Regular.14.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.14.Grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+
+    <!-- Semantic Styles -->
+    <style name="TextView.Headline1" parent="TextView.Regular.Bold.28.Black" />
+
+    <style name="TextView.Headline2" parent="TextView.Regular.Bold.28.Grey" />
+    <style name="TextView.Headline3" parent="TextView.Regular.20.Black" />
+
+    <style name="TextView.Text1" parent="TextView.Regular.18.Black" />
+    <style name="TextView.Text2" parent="TextView.Regular.14.Grey" />
+    <style name="TextView.Text3" parent="TextView.Regular.14.Black" />
+    <style name="TextView.Text4" parent="TextView.Regular.Bold.18.White" />
+    <style name="TextView.Text5" parent="TextView.Regular.18.Grey" />
+
+    <style name="TextView.ButtonLabel" parent="TextView.Regular.16.White" />
+
+</resources>

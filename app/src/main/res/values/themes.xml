@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/grey_4</item>
+        <item name="colorControlActivated">@color/blue_4</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- *************** -->
+    <!-- Activity Themes Styles -->
+    <!-- *************** -->
+    <style name="AppTheme.White" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.SampleProject.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SampleProject.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- ************* -->
+    <!-- Button Styles -->
+    <!-- ************* -->
+    <style name="Button.Solid" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textAppearance">@style/TextView.ButtonLabel</item>
+        <item name="android:background">@drawable/bg_rounded_corner</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_12sdp</item>
+    </style>
+
+    <style name="Button.Transparent" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textAppearance">@style/TextView.ButtonLabel</item>
+        <item name="android:background">@drawable/button_border_drawable</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/_12sdp</item>
+    </style>
+
+</resources>

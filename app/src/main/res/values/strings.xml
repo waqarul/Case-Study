@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Case Study</string>
+
+    !-- *************** -->
+    <!-- HomeScreen -->
+    <!-- *************** -->
+    <string name="home_label">Home</string>
+    <string name="no_data_found">No record(s) found. \n\n Swipe to refresh.</string>
+    <string name="home_start">Start</string>
+
+    !-- *************** -->
+    <!-- Exercise Screen -->
+    <!-- *************** -->
+    <string name="exercise_label">Exercise</string>
+    <string name="exercise_skip_label">Skip ></string>
+
+    <string name="exercise_complete_msg">%1$s completed.</string>
+
+    !-- *************** -->
+    <!-- Pose Detector Screen -->
+    <!-- *************** -->
+    <string name="pose_detector_label">Pose Detector</string>
+    <string name="pose_detector_no_pose_found">You are not visible. Please come inside the frame of camera.</string>
+    <string name="pose_detector_not_full_frame">You are not completely visible to the camera. Please come inside the frame of the camera.</string>
+
+
+    !-- *************** -->
+    <!-- Summary Screen -->
+    <!-- *************** -->
+    <string name="summary_label">Summary</string>
+    <string name="summary_exercise_summary_label">Exercise Summary</string>
+    <string name="summary_finish_training_label">Finish Training</string>
+    <string name="summary_message">You skipped %1$s out of %2$s exercises. \n Should we change the difficulty of your next training?</string>
+
+    <array name="level_array">
+        <item>low</item>
+        <item></item>
+        <item>medium</item>
+        <item></item>
+        <item>high</item>
+    </array>
+
+    !-- *************** -->
+    <!-- Alert Title & Messages -->
+    <!-- *************** -->
+    <string name="title_no_internet_connection">No internet connection</string>
+    <string name="message_no_internet_connection">Please check your internet connection and try again.</string>
+    <string name="title_error_in_request">Error in making request</string>
+    <string name="message_error_in_request">There is an issue to make the request</string>
+    <string name="alert_ok_label">OK</string>
+
+</resources>
