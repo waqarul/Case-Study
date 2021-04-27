@@ -5,9 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import com.waqar.casestudy.R
 import com.waqar.casestudy.base.viewitem.IViewItem
 import com.waqar.casestudy.base.viewmodel.BaseViewModel
+import com.waqar.casestudy.common.viewitems.ExerciseViewItem
 import com.waqar.casestudy.core.model.ExerciseModel
 import com.waqar.casestudy.extentions.getExerciseStatusIcon
-import com.waqar.casestudy.features.home.viewitems.ExerciseViewItem
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 

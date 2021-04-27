@@ -6,10 +6,10 @@ import android.os.Looper
 import androidx.lifecycle.MutableLiveData
 import com.waqar.casestudy.base.viewmodel.BaseViewModel
 import com.waqar.casestudy.base.viewmodel.Event
+import com.waqar.casestudy.common.viewitems.ExerciseViewItem
 import com.waqar.casestudy.constants.AppConstants
 import com.waqar.casestudy.constants.NavigationConstants
 import com.waqar.casestudy.core.model.enum.ExerciseStatusType
-import com.waqar.casestudy.features.home.viewitems.ExerciseViewItem
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 

@@ -6,11 +6,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.waqar.casestudy.R
 import com.waqar.casestudy.base.viewitem.IViewItem
-import com.waqar.casestudy.features.home.viewitems.ExerciseViewItem
+import com.waqar.casestudy.common.diffutil.ExerciseViewItemDiffCallback
+import com.waqar.casestudy.common.viewitems.ExerciseViewItem
 
 class ExerciseRecyclerViewAdapter(val itemClickListener: OnItemClickedListener? = null) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -19,8 +21,10 @@ class ExerciseRecyclerViewAdapter(val itemClickListener: OnItemClickedListener? 
 
     fun setViewItems(viewItems: List<IViewItem>?) {
         viewItems?.let {
-            this.viewItems = it
-            notifyDataSetChanged()
+            val result =
+                    DiffUtil.calculateDiff(ExerciseViewItemDiffCallback(this.viewItems, viewItems), false)
+            this.viewItems = viewItems
+            result.dispatchUpdatesTo(this)
         } ?: run {
             clear()
         }

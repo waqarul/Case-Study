@@ -90,7 +90,6 @@ class HomeFragment : AbstractToolbarFragment<HomeViewModel>(),
     private fun createAdapterListener(): ExerciseRecyclerViewAdapter.OnItemClickedListener {
         return object : ExerciseRecyclerViewAdapter.OnItemClickedListener {
             override fun onItemClicked(position: Int) {
-                //viewModel.onItemClicked(position)
             }
 
             override fun onItemStatusClicked(position: Int) {

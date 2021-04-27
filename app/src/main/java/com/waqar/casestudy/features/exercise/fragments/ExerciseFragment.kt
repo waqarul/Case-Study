@@ -12,9 +12,9 @@ import butterknife.OnClick
 import com.google.android.material.snackbar.Snackbar
 import com.waqar.casestudy.R
 import com.waqar.casestudy.base.view.AbstractToolbarFragment
+import com.waqar.casestudy.common.viewitems.ExerciseViewItem
 import com.waqar.casestudy.constants.AppConstants
 import com.waqar.casestudy.features.exercise.viewmodel.ExerciseViewModel
-import com.waqar.casestudy.features.home.viewitems.ExerciseViewItem
 
 
 class ExerciseFragment : AbstractToolbarFragment<ExerciseViewModel>() {
